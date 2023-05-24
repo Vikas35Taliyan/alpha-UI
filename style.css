@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+:root {
+    --font-family-primary: 'Aktifo A', sans-serif;
+    --bg-color: #000000;
+    --bg-secondary: #E5E5E5;
+    --btn-color: #F26621;
+    --font-primary: #131313;
+    --font-primary: #292929;
+}
+/* main-section ****************************/
+.main-heading {
+max-width: 100%;
+}
+.main-img {
+    background-image: url("./Assets/banner\ image\ copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+.main-logo img {
+    width: 250px;
+    height: 85px;
+}
+.main-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.main-heading h1 {
+    font-family: var(--font-family-primary);
+    font-size: 2vw;
+}
